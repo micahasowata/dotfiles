@@ -23,6 +23,9 @@ require("lazy").setup({
   spec = {
     { import = "plugins" },
   },
-  install = { colorscheme = { "gruvbox"} },
+  install = { colorscheme = { "habamax"} },
   checker = { enabled = true },
 })
+
+require("gruvbox").setup()
+vim.cmd.colorscheme "gruvbox"
