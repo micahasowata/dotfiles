@@ -1,6 +1,14 @@
 return{
-  "ibhagwan/fzf-lua",
+	{  "ibhagwan/fzf-lua",
   dependencies = { "nvim-tree/nvim-web-devicons" },
-  opts = {}
+  opts = {},},
+  {
+	
+  'stevearc/oil.nvim',
+  opts = {},
+  dependencies = { "nvim-tree/nvim-web-devicons" },
+  lazy = false,
+
+  }
 }
 
