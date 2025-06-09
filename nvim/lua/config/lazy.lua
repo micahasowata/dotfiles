@@ -27,5 +27,8 @@ require("lazy").setup({
   checker = { enabled = true },
 })
 
-require("gruvbox").setup()
-vim.cmd.colorscheme "gruvbox"
+require("catppuccin").setup()
+vim.cmd.colorscheme "catppuccin"
+
+require('lualine').setup()
+require('oil').setup()
