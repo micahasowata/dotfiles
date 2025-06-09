@@ -9,7 +9,11 @@ require("lazy").setup({
 require("catppuccin").setup()
 vim.cmd.colorscheme("catppuccin")
 
-require("lualine").setup()
+require("lualine").setup({
+	options = {
+		theme = "auto",
+	},
+})
 
 require("oil").setup()
 
