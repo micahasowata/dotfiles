@@ -17,6 +17,8 @@ require("conform").setup({
 	formatters_by_ft = {
 		lua = { "stylua" },
 		go = { "goimports", "gofumpt" },
+		javascript = { "biome-organize-imports", "biome-check", "biome" },
+		typescript = { "biome-organize-imports", "biome-check", "biome" },
 	},
 
 	format_on_save = {
